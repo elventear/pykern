@@ -1,7 +1,9 @@
+#!/usr/bin/env groovy
+
 // -*-groovy-*-
 // vi: set ft=groovy :
 
-node {
+dockerNode(image: "radiasoft/python2") {
     stage 'checkout'
     checkout scm
 
