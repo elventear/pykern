@@ -1,5 +1,5 @@
-# -*-groovy-*-
-# vi: set ft=groovy :
+// -*-groovy-*-
+// vi: set ft=groovy :
 
 node {
     stage 'checkout'
