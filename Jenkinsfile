@@ -3,7 +3,7 @@
 // -*-groovy-*-
 // vi: set ft=groovy :
 
-dockerNode(image: "radiasoft/python2") {
+docker.image('radiasoft/python2).inside {
     stage 'checkout'
     checkout scm
 
